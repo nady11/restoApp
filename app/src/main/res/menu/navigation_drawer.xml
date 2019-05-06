@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/AddDishes"
+            android:title="Add Dishes"/>
+
+
+        <item
+            android:id="@+id/recDishes"
+            android:title="Receive Dishes"/>
+
+
+        <item
+            android:id="@+id/orderDishes"
+            android:title="Order Dishes"/>
+
+
+        <item
+            android:id="@+id/reDishes"
+            android:title="Receipt Dishes" />
+
+    </group>
+    <item android:title="info" >
+
+        <menu>
+            <item android:title="Change Password"
+                android:id="@+id/chngepass"/>
+            <item android:title="Login"
+                android:id="@+id/logn"/>
+            <item android:title="Log Out"
+                android:id="@+id/logout"/>
+
+        </menu>
+
+    </item>
+
+
+</menu>
